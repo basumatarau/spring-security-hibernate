@@ -72,7 +72,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `spring-sec-hbm001`;
-INSERT INTO `spring-sec-hbm001`.`authorities` (`authority`, `users_idUser`) VALUES ('ADMIN', 1);
+INSERT INTO `spring-sec-hbm001`.`authorities` (`authority`, `users_idUser`) VALUES ('ROLE_ADMIN', 1);
 
 COMMIT;
 
